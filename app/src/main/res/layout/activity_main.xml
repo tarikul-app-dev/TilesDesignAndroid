@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#39B54A"
+    tools:context="planet.it.limited.tilesdesign.MainActivity">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="05dp"
+        android:background="#fff"
+        >
+        <GridView
+            android:id="@+id/btn_gridview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:numColumns="2"
+
+            android:horizontalSpacing="0dp"
+            android:verticalSpacing="0dp"
+            android:layout_marginTop="0dp"
+
+            >
+
+        </GridView>
+    </RelativeLayout>
+
+</LinearLayout>
